@@ -21,11 +21,11 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+  steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
             
     - name: step 1 - log the pre-build disc space
-       run: df
+      run: df
       
     - name: step 2- Checkout the main github branch
       run: actions/checkout@v2
