@@ -33,5 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
          echo 1.  what is in this directory?
-         ecno nothing to see in the multi-line scripts
+         echo nothing to see in the multi-line scripts
          ls -a
